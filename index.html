@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor | News homepage</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="nav-bar">
+        <figure class="logo">
+          <img src="./assets/images/logo.svg" alt="Website logo.">
+        </figure>
+        <div class="nav-list">
+          <img class="close-icon" src="./assets/images/icon-menu-close.svg" alt="close-menu-icon">
+          <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </div>
+        <img class="menu-icon" src="./assets/images/icon-menu.svg" alt="hamburger-icon">
+      </nav>
+    </header>
+    <main>
+      <div class="grid">
+        <figure class="grid-item grid-item-1">
+          <img class="hero-desktop" src="./assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+          <img class="hero-mobile" src="./assets/images/image-web-3-mobile.jpg" alt="">
+        </figure>
+        <div class="grid-item grid-item-2">
+          <p>The Bright Future of Web 3.0?</p>
+        </div>
+        <div class="grid-item grid-item-3">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <button>Read more</button>
+        </div>
+        <aside class="grid-item grid-item-4">
+          <h2>New</h2>
+          <div>
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </aside>
+        <div class="grid-item grid-item-5">
+          <figure>
+            <img src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+          </figure>
+          <figcaption>
+            <p>01</p>
+            <p class="caption-header">Reviving Retro PCs</p>
+            <p class="caption-paragraph">What happens when old PCs are given modern upgrades?</p>
+          </figcaption>
+        </div>
+        <div class="grid-item grid-item-6">
+          <figure>
+            <img src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+          </figure>
+          <figcaption>
+            <p class="caption-number">02</p>
+            <p class="caption-header">Top 10 Laptops of 2022</p>
+            <p class="caption-paragraph">Our best picks for various needs and budgets.</p>
+          </figcaption>
+        </div>
+        <div class="grid-item grid-item-7">
+          <figure>
+            <img src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+          </figure>
+          <figcaption>
+            <p class="caption-number">03</p>
+            <p class="caption-header">The Growth of Gaming</p>
+            <p class="caption-paragraph">How the pandemic has sparked fresh opportunities.</p>
+          </figcaption>
+        </div> 
+      </div>
+    </main>
+  </div>
+  <br><br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Johnny</a>.
+  </div>
+</body>
+</html>
